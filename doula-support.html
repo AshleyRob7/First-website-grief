@@ -22,6 +22,77 @@
     </header>
 
     <h1>Get Support from an End of Life Doula</h1>
+    <h2>Want to learn how a doula can assist and support you and your family in your season of death & grief?</h2>
+    <h3>Fill out the form below!</h3>
+    <br>
+
+
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Add Info</legend>
+
+            <div>
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+            <br>
+            <div>
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+            <br>
+
+            <div>
+                <label for="person">Who are you seeking services for?</label>
+                <select id="person" name="user_status_name"><br>
+                    <option value="student">Myself</option>
+                    <option value="teacher">Someone else</option>
+                </select>
+            </div>
+
+            <p>Which area(s) are you seeking assistance/support around?</p>
+            <div>
+                <input type="checkbox" id="grief-guidance">
+                <label for="grief-guidance">Grief guidance</label><br>
+                <input type="checkbox" id="support-planning">
+                <label for="support-planning">Support system planning</label><br>
+                <input type="checkbox" id="acp">
+                <label for="acp">Advance Care Planning</label><br>
+                <input type="checkbox" id="resources">
+                <label for="resources">Resource identification</label><br>
+                <input type="checkbox" id="legacy">
+                <label for="legacy">Legacy project</label><br>
+                <input type="checkbox" id="hfg">
+                <label for="hfg">Home funeral</label><br>
+            </div>
+            <br>
+            <div>
+                <label for="comments">Please explain the death, loss and/or grief situation you are currently experiencing</label><br>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <br>
+            <br>
+
+            <div>
+                <input type="checkbox" id="signUp" name="signUp">
+                <label for="signUp">Sign up for monthly newsletter</label><br>
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">Agree to terms and conditions</label>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </fieldset>
+
+    </form>
 
 
 </body>
