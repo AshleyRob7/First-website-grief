@@ -1,0 +1,73 @@
+body {
+    background-color: #A189A9;
+}
+
+header {
+    background-color: #A6CB90;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 13px;
+    text-transform: uppercase;
+}
+
+.headers {
+    font-family: Didot;
+}
+
+.border-box {
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 25px;
+    border: 10px solid #477171;
+    margin: auto;
+}
+
+.plain-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+}
+
+#doula-headers {
+    text-align: center;
+}
+
+.form {
+    background-color: #815F77;
+    display: inline-block;
+}
+
+#child-image {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #815F77;
+    margin: auto;
+    overflow: auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
